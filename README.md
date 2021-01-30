@@ -53,7 +53,7 @@
 
 
 ## Some limitations
-Although the analysis presented in this white paper is extensive, there is plenty more you could look at in a Twitter dataset. However, I feel it is important not to over-engineer the process because of three main reasons: 
+Although the analysis presented in this repository is extensive, there is plenty more you could look at in a Twitter dataset. However, I feel it is important not to over-engineer the process because of three main reasons: 
 - Twitter does not offer a representative cut of the population nor does it allow us to draw definitive conclusions. 
 - Social media data is a snapshot at a given point in time.
-- I could have considered many other hashtags in these domains, and my choice was arbitrary. For example, I did not look at trends in #openscholarship or #opendata”.
+- Any analysis you run will be biased by the hashtags or filters you apply when harvesting data from Twitter. This is not an issue, but something worth bearing in mind as you draw any conclusions!
