@@ -2,6 +2,8 @@
 - Between October 2020 and January 2021, I have been collecting over 57k tweets around #openaccess and over 31k around #openscience. In this repository, I share my approach to text and data mining (TDM) and some thoughts on how Twitter data can be analysed to build insights. 
 - For simplicity, the images only refer to the hashtag #openaccess, but some of the insights below cover #openscience, too.
 - Please note that Twitter's Terms of Service do not allow the sharing of full data, so you will need your own datasets: this repository assumes that you have already harvested some tweets (via rtweet) and only need to analyse them.
+- My code will output data tables in an "Analysis" folder and images (like the ones included below) in an "Images" folder. The code assumes that your datasets have been saved under "D:\\tweets", but you can of course change that.
+- The code is fully commented and includes explanations at each step.
 
 ### Find out when people tweet the most (data + word cloud)
 - The first thing you should consider when working with social media is timing: open access and open science belong to the working week. Indeed, for many people these topics are likely to be work-related rather than recreational activities or hobbies.
