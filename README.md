@@ -1,4 +1,4 @@
-# OpenScholarshipTDM
+# Open Scholarship Text and Data Mining
 - Between October 2020 and January 2021, I have been collecting over 57k tweets around #openaccess and over 31k around #openscience. In this repository, I share my approach to text and data mining (TDM) and some thoughts on how Twitter data can be analysed to build insights. 
 - For simplicity, the images only refer to the hashtag #openaccess, but some of the insights below cover #openscience, too.
 - Please note that Twitter's Terms of Service do not allow the sharing of full data, so you will need your own datasets: this repository assumes that you have already harvested some tweets (via rtweet) and only need to analyse them.
