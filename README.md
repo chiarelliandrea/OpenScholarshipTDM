@@ -4,6 +4,7 @@
 - Please note that Twitter's Terms of Service do not allow the sharing of full data, so you will need your own datasets: this repository assumes that you have already harvested some tweets (via rtweet) and only need to analyse them.
 - My code will output data tables in an "Analysis" folder and images (like the ones included below) in an "Images" folder. The code assumes that your datasets have been saved under "D:\\tweets", but you can of course change that.
 - The code is fully commented and includes explanations at each step.
+- Note that you can use my code for any other topic(s) of your choice. You would only need to edit the relevance checks (see section 6 below) and any occurrences of the term "openaccess" in uncommented lines.
 
 Here's a list of features...
 
