@@ -40,7 +40,7 @@ Here's a list of features...
 - While an analysis for the #openscience hashtag is not particularly insightful, looking at #openaccess provides an actionable insight. You can immediately see that the most frequent terms used in tweets around open access are about “new” papers, books or research. This suggests that the hashtag is frequently used by authors, journals or publishers to advertise their work (e.g. papers, books), rather than to talk about open access issues more broadly. If you tweet about or follow policy developments or high-level discussions around open access, use additional and more specific hashtags wherever possible. Otherwise, your tweets may be drowned by a sea of research outputs.
 - The code will provide you with data and a word cloud image.
 
-###### Figure 4. Corpus analysis.
+###### Figure 4. Corpus analysis (#openaccess).
 <img src="https://github.com/chiarelliandrea/OpenScholarshipTDM/blob/main/4.%20Wordcloud%20of%20most%20used%20words.png?raw=true" width="600">
 
 ### 5) Network analysis
@@ -48,14 +48,14 @@ Here's a list of features...
 - Using my code, you can plot the answer to the question "who retweeted whom?" The very large dataset I harvested from Twitter included tens of thousands of tweets and, unsurprisingly, yielded very large constellations. You can appreciate this in Figure 5, which only shows accounts that were retweeted and had have at least 5,000 followers (I didn't find this huge map very useful).
 - You should be careful with your interpretation of retweet networks, as these visualisations depend on the data you have decided to harvest. In the case of Figure 5, only tweets using the hashtag #openaccess within a given timeframe are included. By no means does this indicate that any accounts visualised are not receiving attention in other arenas.
 
-###### Figure 5. Full retweet network.
+###### Figure 5. Full retweet network (#openaccess).
 <img src="https://github.com/chiarelliandrea/OpenScholarshipTDM/blob/main/Full%20retweet%20network.png?raw=true" width="600">
 
 - A more reproducible and standardised approach (as opposed to setting an arbitrary follower count) may be to pick some criteria and simplify the network automatically. For example, you may choose to only show the top 20 most mentioned accounts and remove any filters by number of followers.
 - Figure 6 shows a far more manageable snapshot of the network, where the most mentioned 20 accounts have been programmatically filtered. As an example of insights that you can derive from this type of analysis, let us focus  on the account @MDPIOpenAccess (one of the two that appear “disconnected” in Figure 6). Only one out of 31 accounts who have retweeted from @MDPIOpenAccess is an individual, while the remaining 30 are MDPI journals. This clearly looks odd, but  you can easily understand why by looking at the data in csv format (via Excel or similar software): the 30 MDPI journals were helping the main MDPI account advertise an interview campaign. This shows once again that social media information is valid at a given point in time, and there is a risk of misinterpreting it if you are not careful.
 - Note that retweet networks can offer very interesting results. However, they are difficult to interpret via automated means and require an extent of further analysis. If you are happy to get your hands dirty, do dig into this rewarding form of exploration.
 
-###### Figure 6. Filtered retweet network.
+###### Figure 6. Filtered retweet network (#openaccess).
 <img src="https://github.com/chiarelliandrea/OpenScholarshipTDM/blob/main/Filtered%20retweet%20network.png?raw=true" width="600">
 
 ### 6) Other features
